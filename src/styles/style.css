@@ -208,6 +208,51 @@ a.navigation-item:hover {
   font: 64px/1 "Neucha", serif;
 }
 
+.before-header-section {
+  font-size: 24px;
+  font-family: "Neucha", serif;
+}
+
+.cm-description {
+  margin-top: 30px;
+
+  font-size: 34px;
+  font-family: "Neucha", serif;
+  line-height: 41px;
+}
+
+.how-appear-header {
+  padding: 5px 0 5px 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 17px;
+
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.before-header-section-white {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.before-header-section-brown {
+  color: var(--white);
+
+  background-color: var(--brown);
+}
+
+.text-content {
+  position: absolute;
+  top: 100px;
+  left: 773px;
+
+  width: 502px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -252,16 +297,24 @@ a.navigation-item:hover {
   cursor: pointer;
 }
 
+.mt-185 {
+  margin-top: 185px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
-.mb-389 {
-  margin-bottom: 389px;
+.mb-100 {
+  margin-bottom: 100px;
 }
 
-.mt-185 {
-  margin-top: 185px;
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-389 {
+  margin-bottom: 389px;
 }
 
 .pr-15 {
@@ -270,6 +323,14 @@ a.navigation-item:hover {
 
 .mt-40 {
   margin-top: 40px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .primary {
@@ -282,4 +343,12 @@ a.navigation-item:hover {
 
 .white {
   color: var(--white);
+}
+
+.dark-semiopacity {
+  color: var(--dark-semiopacity);
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
