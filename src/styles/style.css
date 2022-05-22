@@ -14,19 +14,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url(../assets/fonts/OpenSans-Bold.ttf);
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
-  font-family: "Neucha";
-  src: url(../assets/fonts/Neucha-Regular.ttf);
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 body {
@@ -77,12 +77,6 @@ body {
   padding: 100px 0;
 }
 
-.video-section {
-  text-align: center;
-
-  background-color: var(--white);
-}
-
 .navigation {
   padding-top: 100px;
 }
@@ -92,7 +86,7 @@ h2,
 h3 {
   color: var(--primary);
 
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   line-height: 1.3em;
 }
 
@@ -134,7 +128,7 @@ img {
 
   opacity: 0.1;
 
-  content: '';
+  content: "";
 }
 
 .bg-primary-dark {
@@ -169,7 +163,7 @@ p {
 
   transform: translateX(-50%);
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba((0, 0, 0) 15%));
 }
 
 .navigation-item {
@@ -205,19 +199,19 @@ a.navigation-item:hover {
   margin-bottom: 40px;
 
   color: var(--primary-dark);
-  font: 64px/1 "Neucha", serif;
+  font: 64px/1 Neucha, serif;
 }
 
 .before-header-section {
   font-size: 24px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
 }
 
 .cm-description {
   margin-top: 30px;
 
   font-size: 34px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   line-height: 41px;
 }
 
@@ -307,6 +301,7 @@ a.navigation-item:hover {
 
   height: 20px;
   padding: 15px;
+
   border: 0;
 }
 
@@ -316,6 +311,7 @@ a.navigation-item:hover {
   width: 70px;
   height: 50px;
   padding: 0;
+
   border: 0;
 }
 
@@ -343,7 +339,6 @@ a.navigation-item:hover {
 .d-block-inline {
   display: inline-block;
 }
-
 
 .mt-60 {
   margin-top: 60px;
@@ -381,10 +376,6 @@ a.navigation-item:hover {
   margin-top: 40px;
 }
 
-.pr-15 {
-  padding-right: 15px;
-}
-
 .pl-15 {
   padding-left: 15px;
 }
@@ -418,5 +409,5 @@ a.navigation-item:hover {
 }
 
 .shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba((0, 0, 0), 15%));
 }
