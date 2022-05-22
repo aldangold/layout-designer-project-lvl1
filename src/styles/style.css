@@ -1,7 +1,78 @@
 /** CSS STYLE **/
+:root {
+  --white: #fff;
+  --white-semiopacity: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --primary-dark: #42413c;
+  --dark: #2a2626;
+  --dark-semiopacity: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
 
-  color: #fff;
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url(../assets/fonts/Neucha-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: var(--dark);
+  font-size: 16px; /** Set single property: font **/
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+.container {
+  position: relative;
+
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary);
+
+  font-family: "Neucha", serif;
+  line-height: 1.3em;
+}
+
+h1 {
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 72px;
+}
+
+h2 {
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 60px;
+}
+
+h3 {
+  margin-bottom: 16px;
+
+  font-weight: normal;
+  font-size: 34px;
 }
