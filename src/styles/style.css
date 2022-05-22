@@ -297,6 +297,57 @@ a.navigation-item:hover {
   cursor: pointer;
 }
 
+.subscribe {
+  padding: 40px 55px;
+}
+
+.subscribe-input {
+  flex-basis: 420px;
+  flex-grow: 1;
+
+  height: 20px;
+  padding: 15px;
+  border: 0;
+}
+
+.subscribe-button {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+  padding: 0;
+  border: 0;
+}
+
+.subscribe-button::before {
+  position: absolute;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  content: url("../assets/images/send.svg");
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subscribe-agreement {
+  font-size: 12px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-block-inline {
+  display: inline-block;
+}
+
+
+.mt-60 {
+  margin-top: 60px;
+}
 
 .mt-100 {
   margin-top: 100px;
@@ -336,6 +387,14 @@ a.navigation-item:hover {
 
 .pl-15 {
   padding-left: 15px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
 }
 
 .primary {
