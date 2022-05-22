@@ -51,12 +51,36 @@ body {
   position: relative;
 }
 
+.header,
+.effect-ikea,
+.distortion-of-novelty,
+.errors-in-planning {
+  background-color: var(--light);
+}
+
+.premature-optimization,
+.hyperbolic-depreciation {
+  background-color: var(--brown);
+}
+
+.video-section {
+  text-align: center;
+
+  background-color: var(--white);
+}
+
 .container {
   position: relative;
 
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.video-section {
+  text-align: center;
+
+  background-color: var(--white);
 }
 
 h1,
@@ -89,6 +113,10 @@ h3 {
   font-size: 34px;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .bg-image::before {
   position: absolute;
 
@@ -103,6 +131,26 @@ h3 {
   opacity: 0.1;
 
   content: '';
+}
+
+.header > .container > img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+
+  height: 525px;
+}
+
+.video {
+  position: absolute;
+  top: 329px;
+  left: 50%;
+
+  z-index: 1;
+
+  transform: translateX(-50%);
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .col {
@@ -129,6 +177,14 @@ h3 {
   cursor: pointer;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-389 {
+  margin-bottom: 389px;
+}
+
 .mt-185 {
   margin-top: 185px;
 }
@@ -139,4 +195,16 @@ h3 {
 
 .mt-40 {
   margin-top: 40px;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.white {
+  color: var(--white);
 }
