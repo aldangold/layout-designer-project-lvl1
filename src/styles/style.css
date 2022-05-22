@@ -297,6 +297,11 @@ a.navigation-item:hover {
   cursor: pointer;
 }
 
+
+.mt-100 {
+  margin-top: 100px;
+}
+
 .mt-185 {
   margin-top: 185px;
 }
@@ -347,6 +352,10 @@ a.navigation-item:hover {
 
 .dark-semiopacity {
   color: var(--dark-semiopacity);
+}
+
+.white-semiopacity {
+  color: var(--white-semiopacity);
 }
 
 .shadow {
