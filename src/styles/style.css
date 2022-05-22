@@ -83,6 +83,10 @@ body {
   background-color: var(--white);
 }
 
+.navigation {
+  padding-top: 100px;
+}
+
 h1,
 h2,
 h3 {
@@ -133,6 +137,21 @@ img {
   content: '';
 }
 
+.bg-primary-dark {
+  position: relative;
+  z-index: 0;
+
+  background-color: var(--primary-dark);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+p {
+  margin-top: 0;
+}
+
 .header > .container > img {
   position: absolute;
   top: 55px;
@@ -151,6 +170,62 @@ img {
   transform: translateX(-50%);
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.navigation-item {
+  box-sizing: border-box;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.navigation-item p {
+  margin-bottom: 0;
+}
+
+h2.navigation-item {
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+a.navigation-item {
+  padding: 24px;
+
+  color: var(--dark);
+
+  text-decoration: none;
+
+  background-color: var(--light);
+}
+
+a.navigation-item:hover {
+  background-color: var(--brown);
+}
+
+.digit {
+  margin-bottom: 40px;
+
+  color: var(--primary-dark);
+  font: 64px/1 "Neucha", serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center { /** Maybe replace prop in section tag **/
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
 }
 
 .col {
