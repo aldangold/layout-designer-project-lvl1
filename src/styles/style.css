@@ -2,11 +2,23 @@
 
 /* Подключение шрифтов */
 
-/* Neucha Regular 400 */
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
 
-/* Open Sans Regular 400 + 700 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha-Regular.ttf");
+}
 
 /* Переменные, цвет текста и фона */
 :root {
@@ -40,7 +52,7 @@ h3 {
   color: var(--color-primary);
 
   font-weight: 400;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
 
   line-height: 1.2em;
 }
@@ -74,7 +86,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
 }
 
@@ -137,12 +149,12 @@ ul {
 }
 
 .heading-howappears {
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
   padding: 5px 10px;
 
   font-weight: 700;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Стиль текста в параграфах */
@@ -150,7 +162,7 @@ ul {
   margin-bottom: 0;
 
   font-weight: 400;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -230,7 +242,7 @@ ul {
 
 /* Тень для картинок и видео */
 .shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba((0, 0, 0), 15%));
 }
 
 /* Ширина колонки текста */
@@ -318,11 +330,11 @@ ul {
   bottom: 0;
   left: 0;
 
-  background: no-repeat url(../assets/images/background.png);
+  background: no-repeat url("../assets/images/background.png");
   background-size: cover;
   opacity: 0.1;
 
-  content: '';
+  content: "";
 }
 
 /* Общий стиль для кнопок */
@@ -381,7 +393,7 @@ ul {
 
   font-size: 64px;
 
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
 
   line-height: 1em;
 }
@@ -422,7 +434,7 @@ ul {
   width: 385px;
   padding: 15px;
 
-  color: rgba(117, 117, 117, 0.8);
+  color: rgba(117 117 117 / 80%);
 
   border: 1px;
 }
@@ -446,8 +458,8 @@ ul {
   width: 22px;
   height: 22px;
 
-  background-image: url(../images/send.svg);
+  background-image: url("../images/send.svg");
   background-position: center center;
 
-  content: '';
+  content: "";
 }
